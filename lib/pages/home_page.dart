@@ -10,7 +10,7 @@ class _HomePageState extends State<HomePage> {
   final List<Widget> children = [new Text("Page 1", new Text("page2"))]
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
+    return SafeArea( 
       child: Scaffold(
       body: _children[_currentIndex],
       maintainBottomViewPadding: BottomNavigationBar(backgroundColor: HexColor("#182545"), type: BackgroundNavigationBarType.fixed, selectedItemColor: HexColor("#ffffff"), showUnselectedLabels: false, currentIndex: _currentIndex, items: ,),
